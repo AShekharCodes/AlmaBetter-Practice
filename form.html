@@ -9,8 +9,17 @@
   <body>
     <h1>Form</h1>
     <form action="www.myserver.co" method="get">
-      Name: <input type="text" name="un" /> <br />
-      Password: <input type="password" name="pass" />
+      <label for="name">Name</label>
+      <input type="text" name="un" id="name" />
+      <label for="pass">Password</label>
+      <input type="password" name="pass" id="pass" />
+      <br />
+      <br />
+      <label for="add">Address</label>
+      <textarea id="add"></textarea>
+      <br />
+      <br />
+      <button type="submit">Submit</button>
     </form>
   </body>
 </html>
